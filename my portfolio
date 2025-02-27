@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ralph Christopher Acorda - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .card .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #333;
+            color: #fff;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ralph Christopher Acorda</h1>
+        <p>Drawing | Designer | Programmer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+   
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="card">
+                <p>Hello! I'm Ralph Christopher, a passionate drawing artist with a love and dreaming of a manga artist and animator.I dont have so many experience working with a variety of programming languages and technologies, and I'm always looking for to learn and to improve my skills.</p>
+                <p>In my free time, I enjoy learning about new things. I'm eager to work on exciting and innovative projects that make a difference.</p>
+            </div>
+            
+            <img src="profilePic.jpg">
+           
+        </section>
+<style>
+                
+                .profilePic.jpg {
+                    width: 150px; 
+                    height: 150px; 
+                    border-radius: 50%; 
+                    object-fit: cover; 
+                    border: 3px solid #333; 
+                }
+
+                
+            </style>
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="card">
+                <p>Here are some of the thingd I've worked with so far:</p>
+                <div class="skills">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">Python</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="card">
+                <h3>Project 1: Personal Website</h3>
+                <p>This project is a personal portfolio website I built using HTML, CSS. It showcases my not so great skills, on my design.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Project 2: E-Commerce Website</h3>
+                <p>im not good at this but im willing to learn</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="card">
+                <p>I'd love to hear from you! Whether you're interested in collaborating on a project or just want to say hello, feel free to reach out.</p>
+                <p>Email: <a href="rcacorda24@gmail.com">rcacorda24@gmail.com</a></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ralph Christopher Acorda. All rights reserved to the rightful owners+.</p>
+    </footer>
+
+</body>
+</html>
